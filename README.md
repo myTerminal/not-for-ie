@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/github/license/myTerminal/not-for-ie.svg)](https://opensource.org/licenses/MIT)  
 [![NPM](https://nodei.co/npm/not-for-ie.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/not-for-ie/)
 
-A mini-library to declare that your web application is not designed to run in Internet Explorer [In Progress]
+A mini-library to declare that your web application is not designed to run in Internet Explorer
 
 ## Features
 
