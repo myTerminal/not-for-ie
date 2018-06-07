@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>not-for-ie example</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+
+        <style type="text/css">
+            body #alternate-page-root {
+                display: none;
+            }
+            
+            body.ie #page-root {
+                display: none;
+            }
+            
+            body.ie #alternate-page-root {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page-root">
+            IE not detected, web application will run.
+        </div>
+        <div id="alternate-page-root">
+            IE detected, web application will not run.
+        </div>
+
+        <script src="../build/scripts/not-for-ie.js"></script>
+
+        <script type="text/javascript">
+         /* global notForIe */
+
+         notForIe.activate('ie');
+         
+         if (notForIe.isIe()) {
+             alert('Please run this in a \'smarter\' web-browser!');
+         }
+        </script>
+    </body>
+</html>
