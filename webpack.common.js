@@ -16,7 +16,7 @@ const clean = new CleanWebpackPlugin([outputDir]);
 module.exports = {
     mode: 'development',
     entry: {
-        library: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
+        [libraryFileName]: './' + sourceDir + '/scripts/' + libraryFileName + '.js'
     },
     module: {
         rules: [
@@ -43,7 +43,7 @@ module.exports = {
         clean
     ],
     output: {
-        filename: 'scripts/' + libraryFileName + '.js',
+        filename: 'scripts/[name].js',
         path: path.resolve(__dirname, outputDir),
         library: libraryName,
         libraryTarget: 'umd',
