@@ -2,7 +2,7 @@
 
 let isRunningInIe;
 
-(function () {
+(() => {
     const userAgentString = navigator.userAgent;
 
     isRunningInIe = userAgentString.indexOf('MSIE') > -1
@@ -10,14 +10,12 @@ let isRunningInIe;
         || userAgentString.indexOf('Edge/') > -1;
 })();
 
-const activate = function (className) {
-        if (isRunningInIe) {
-            document.body.className += ` ${className}`;
-        }
-    },
-    isIe = function () {
-        return isRunningInIe;
-    };
+const activate = className => {
+    if (isRunningInIe) {
+        document.body.className += ` ${className}`;
+    }
+};
+const isIe = () => isRunningInIe;
 
 export {
     isIe,
