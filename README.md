@@ -4,6 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/not-for-ie.svg)](https://www.npmjs.com/package/not-for-ie)  
 [![Build Status](https://travis-ci.org/myTerminal/not-for-ie.svg?branch=master)](https://travis-ci.org/myTerminal/not-for-ie)
 [![Code Climate](https://codeclimate.com/github/myTerminal/not-for-ie.png)](https://codeclimate.com/github/myTerminal/not-for-ie)
+[![js-myterminal-style](https://img.shields.io/badge/code%20style-myterminal-blue.svg)](https://www.npmjs.com/package/eslint-config/myterminal)
 [![Coverage Status](https://img.shields.io/coveralls/myTerminal/not-for-ie.svg)](https://coveralls.io/r/myTerminal/not-for-ie?branch=master)  
 [![Dependency Status](https://david-dm.org/myTerminal/not-for-ie.svg)](https://david-dm.org/myTerminal/not-for-ie)
 [![devDependency Status](https://david-dm.org/myTerminal/not-for-ie/dev-status.svg)](https://david-dm.org/myTerminal/not-for-ie#info=devDependencies)
