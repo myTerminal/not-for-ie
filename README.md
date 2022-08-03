@@ -1,15 +1,12 @@
 # not-for-ie
 
 [![npm version](https://badge.fury.io/js/not-for-ie.svg)](https://badge.fury.io/js/not-for-ie)
-[![npm downloads](https://img.shields.io/npm/dt/not-for-ie.svg)](https://www.npmjs.com/package/not-for-ie)  
+[![npm downloads](https://img.shields.io/npm/dt/not-for-ie.svg)](https://www.npmjs.com/package/not-for-ie)
+[![License](https://img.shields.io/github/license/myTerminal/not-for-ie.svg)](https://opensource.org/licenses/MIT)  
 [![Build Status](https://travis-ci.org/myTerminal/not-for-ie.svg?branch=master)](https://travis-ci.org/myTerminal/not-for-ie)
 [![Code Climate](https://codeclimate.com/github/myTerminal/not-for-ie.png)](https://codeclimate.com/github/myTerminal/not-for-ie)
 [![js-myterminal-style](https://img.shields.io/badge/code%20style-myterminal-blue.svg)](https://www.npmjs.com/package/eslint-config/myterminal)
 [![Coverage Status](https://img.shields.io/coveralls/myTerminal/not-for-ie.svg)](https://coveralls.io/r/myTerminal/not-for-ie?branch=master)  
-[![Dependency Status](https://david-dm.org/myTerminal/not-for-ie.svg)](https://david-dm.org/myTerminal/not-for-ie)
-[![devDependency Status](https://david-dm.org/myTerminal/not-for-ie/dev-status.svg)](https://david-dm.org/myTerminal/not-for-ie#info=devDependencies)
-[![peer Dependency Status](https://david-dm.org/myTerminal/not-for-ie/peer-status.svg)](https://david-dm.org/myTerminal/not-for-ie#info=peerDependencies)  
-[![License](https://img.shields.io/github/license/myTerminal/not-for-ie.svg)](https://opensource.org/licenses/MIT)  
 [![NPM](https://nodei.co/npm/not-for-ie.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/not-for-ie/)
 
 A mini-library to declare that your web application is not designed to run in Internet Explorer
