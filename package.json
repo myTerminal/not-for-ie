@@ -1,6 +1,6 @@
 {
   "name": "not-for-ie",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A mini-library to declare that your web application is not designed to run in Internet Explorer",
   "main": "build/scripts/not-for-ie.js",
   "files": [
